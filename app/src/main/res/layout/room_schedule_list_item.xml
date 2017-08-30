@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10">
+
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:id="@+id/id"
+            />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="2017-08-01"
+            android:textColor="@color/color_6"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/day"
+            />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="2.5"
+            android:layout_height="wrap_content"
+            android:text="08:00"
+            android:textColor="@color/color_5"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/begin"
+            />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="2.5"
+            android:layout_height="wrap_content"
+            android:text="09:00"
+            android:textColor="@color/color_5"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/end"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:id="@+id/edit_delete_layout"
+        android:paddingBottom="4sp">
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="3.5"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="EDIT"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:id="@+id/edit"
+            />
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="3.5"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dark_button_background"
+            android:textColor="#ffffff"
+            android:text="DELETE"
+            android:gravity="center"
+            android:id="@+id/delete"
+            />
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

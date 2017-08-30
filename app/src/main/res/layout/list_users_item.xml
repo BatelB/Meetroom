@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shadow_9_patch"
+    android:padding="10sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="#1"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/user_item_id"/>
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:text="Fullname"
+            android:textSize="16sp"
+            android:maxLines="1"
+            android:textColor="@color/color_6"
+            android:id="@+id/user_item_fullname"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+           />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:text="Email : emailadress@yahoo.com"
+            android:textStyle="italic"
+            android:maxLines="1"
+            android:textColor="@color/color_5"
+            android:id="@+id/user_item_email"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:text="Entry date : 00-00-0000"
+            android:textStyle="italic"
+            android:maxLines="1"
+            android:textColor="@color/color_5"
+            android:id="@+id/user_item_entry_date"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:text="Account type : type"
+            android:textStyle="italic"
+            android:maxLines="1"
+            android:textColor="@color/color_5"
+            android:id="@+id/user_item_type"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@android:drawable/ic_delete"
+        android:id="@+id/user_item_delete"
+        android:layout_marginTop="-34sp"/>
+
+</LinearLayout>

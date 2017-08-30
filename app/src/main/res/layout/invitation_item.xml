@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shadow_9_patch"
+    android:padding="10sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="ROOM"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/invitation_room_id"/>
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:text="Number : "
+            android:textSize="14sp"
+            android:maxLines="1"
+            android:textColor="@color/color_6"
+            android:id="@+id/invitation_room_number"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:text="Floor : "
+            android:textStyle="italic"
+            android:maxLines="1"
+            android:textColor="@color/color_5"
+            android:id="@+id/invitation_room_floor"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:layout_marginTop="4sp">
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="#ID"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:gravity="left"
+            />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="Day"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@color/color_6"
+            />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="2.5"
+            android:layout_height="wrap_content"
+            android:text="Begin"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="2.5"
+            android:layout_height="wrap_content"
+            android:text="End"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@color/colorAccent_light"
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_marginTop="4sp"
+        android:id="@+id/invitation_listview">
+
+    </ListView>
+
+</LinearLayout>

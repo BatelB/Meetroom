@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Meeting Room Scheduler</string>
+
+    <string-array name="user_type">
+        <item>Read-only</item>
+        <item>Read/Write</item>
+        <item>Administrator</item>
+    </string-array>
+
+</resources>
