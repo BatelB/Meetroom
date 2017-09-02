@@ -14,7 +14,7 @@ import com.meetingroomscheduler.MainActivity;
 import com.meetingroomscheduler.R;
 
 /**
- * Created by Rafael on 8/23/2017.
+ *
  */
 
 public class ReadWriteUserPage extends AppCompatActivity {

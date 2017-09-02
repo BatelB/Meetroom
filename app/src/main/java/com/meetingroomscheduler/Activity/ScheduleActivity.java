@@ -33,7 +33,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by Rafael on 8/22/2017.
+ *
  */
 
 public class ScheduleActivity extends AppCompatActivity {

@@ -34,7 +34,7 @@ import java.util.Map;
 import java.util.concurrent.Exchanger;
 
 /**
- * Created by Rafael on 8/22/2017.
+ *
  */
 
 public class ManageUsers  extends AppCompatActivity {

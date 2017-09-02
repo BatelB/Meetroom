@@ -30,7 +30,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- *
+ *  Create user
+ *  User properties: full name, password, email, user type
  */
 
 public class CreateUser extends AppCompatActivity {

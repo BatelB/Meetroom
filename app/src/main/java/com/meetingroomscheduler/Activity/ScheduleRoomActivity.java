@@ -54,8 +54,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by Rafael on 8/23/2017.
- */
+ *
+ * */
 
 public class ScheduleRoomActivity  extends AppCompatActivity {
 
@@ -360,16 +360,6 @@ public class ScheduleRoomActivity  extends AppCompatActivity {
 
                             getSchedule();
 
-//                            Schedule new_s_item = new Schedule();
-//                            new_s_item.id = response;
-//                            new_s_item.room_id = ScheduleActivity.rooms_list.get(Global.view_room_index).id;
-//                            new_s_item.begin = new_s_day + " " + new_s_begin_hour + ":00";
-//                            new_s_item.end = new_s_day + " " + new_s_end_hour + ":00";
-//
-//                            schedule_list.add(new_s_item);
-//
-//                            renderList();
-
                         }else{
                             Toast.makeText(context, "Error, could not set schedule", Toast.LENGTH_SHORT).show();
                         }
@@ -482,14 +472,6 @@ public class ScheduleRoomActivity  extends AppCompatActivity {
             adapter = new ListDateTimeForRoomAdapter(context, schedule_list);
             listview.setAdapter(adapter);
             setListViewHeightBasedOnChildren(listview);
-
-//            listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-//                @Override
-//                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//
-//                }
-//            });
-
     }
 
     public static void setListViewHeightBasedOnChildren(ListView listView) {
@@ -636,8 +618,6 @@ public class ScheduleRoomActivity  extends AppCompatActivity {
         }
 
     }
-
-
 
     @Override
     public void onBackPressed(){

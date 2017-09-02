@@ -32,7 +32,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by Rafael on 8/22/2017.
+ *
  */
 
 public class ManageRooms extends AppCompatActivity {

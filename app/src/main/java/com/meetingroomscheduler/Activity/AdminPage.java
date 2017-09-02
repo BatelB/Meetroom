@@ -16,7 +16,12 @@ import com.meetingroomscheduler.R;
 import org.w3c.dom.Text;
 
 /**
- *
+ * Admin page - Admin can:
+ * 1. manage users: add\delete user, view all existing users
+ * 2. manage rooms: add\delete room, view all existing rooms
+ * 3. schedule room: add meeting to available room
+ * 4. View invitations: view all invitations for room
+ * 5. logout from user
  */
 
 public class AdminPage extends AppCompatActivity {
