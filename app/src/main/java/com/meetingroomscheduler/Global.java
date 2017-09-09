@@ -6,6 +6,7 @@ import com.meetingroomscheduler.Class.User;
 
 /**
  *
+ *
  */
 
 public class Global {
@@ -19,6 +20,5 @@ public class Global {
     public static int view_room_index = 0;
 
     public static String edit_schedule_id = "";
-
 
 }

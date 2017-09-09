@@ -1,7 +1,7 @@
 package com.meetingroomscheduler.Class;
 
 /**
- * Created by Rafael on 8/23/2017.
+ * Schedule characteristics: id, room id, manager id, start time and end time
  */
 
 public class Schedule {

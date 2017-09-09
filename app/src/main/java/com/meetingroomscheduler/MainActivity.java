@@ -31,6 +31,7 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
+    //login
     EditText edit_email, edit_password;
     ProgressBar progressbar;
     TextView submit;
@@ -96,6 +97,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    // authentication for User
     private void authenticateUser(){
 
         Log.d("MainActivity.class", "authenticateUser()");

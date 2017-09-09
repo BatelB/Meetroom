@@ -3,7 +3,7 @@ package com.meetingroomscheduler.Class;
 import java.util.ArrayList;
 
 /**
- * Created by Rafael on 8/24/2017.
+ * Invitation
  */
 
 public class Invitation {

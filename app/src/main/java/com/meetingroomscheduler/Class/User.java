@@ -1,7 +1,7 @@
 package com.meetingroomscheduler.Class;
 
 /**
- * Created by Rafael on 8/22/2017.
+ * User characteristics: id, email, entry date, password, type (read, read and write or admin) and fullname
  */
 
 public class User {
