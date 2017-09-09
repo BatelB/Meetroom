@@ -32,8 +32,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- *
- */
+ * Manage rooms
+ * User can View and add all rooms
+ **/
 
 public class ManageRooms extends AppCompatActivity {
 
