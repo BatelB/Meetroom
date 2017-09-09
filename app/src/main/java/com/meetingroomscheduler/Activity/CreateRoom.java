@@ -30,7 +30,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- *
+ * Add room
+ * room characteristics are Id, number, floor, number of people and equipment
  */
 
 public class CreateRoom extends AppCompatActivity {
@@ -107,6 +108,7 @@ public class CreateRoom extends AppCompatActivity {
         });
 
     }
+
 
     void createRoom(){
 
