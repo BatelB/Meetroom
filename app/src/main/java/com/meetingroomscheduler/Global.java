@@ -5,7 +5,7 @@ import com.android.volley.toolbox.Volley;
 import com.meetingroomscheduler.Class.User;
 
 /**
- * Created by Rafael on 8/22/2017.
+ *
  */
 
 public class Global {

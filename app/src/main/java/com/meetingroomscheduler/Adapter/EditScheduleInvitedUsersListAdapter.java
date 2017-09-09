@@ -20,7 +20,7 @@ import com.meetingroomscheduler.R;
 import java.util.ArrayList;
 
 /**
- * Created by Rafael on 8/23/2017.
+ *
  */
 
 public class EditScheduleInvitedUsersListAdapter extends ArrayAdapter<String> {

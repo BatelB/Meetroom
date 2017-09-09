@@ -1,7 +1,7 @@
 package com.meetingroomscheduler.Adapter;
 
 /**
- * Created by Rafael on 8/24/2017.
+ *
  */
 
 import android.app.Activity;
