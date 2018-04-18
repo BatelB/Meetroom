@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1011828440122",
+    "firebase_url": "https://meetroom-e28aa.firebaseio.com",
+    "project_id": "meetroom-e28aa",
+    "storage_bucket": "meetroom-e28aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011828440122:android:13adf5f06431d414",
+        "android_client_info": {
+          "package_name": "com.meetingroomscheduler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011828440122-k2fhptlnfa17f8kfaqv95ash3t4qvbvn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meetingroomscheduler",
+            "certificate_hash": "cf2d55868861cac90abaf1e7e308b9f1859e8a88"
+          }
+        },
+        {
+          "client_id": "1011828440122-qs0t1uc6ebksh8n6tuakm0k97g9kmve0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUZIt_m96ppPyBtgTeJroJku8KvLfotNg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011828440122-qs0t1uc6ebksh8n6tuakm0k97g9kmve0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
