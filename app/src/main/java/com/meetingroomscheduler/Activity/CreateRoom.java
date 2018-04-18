@@ -38,7 +38,7 @@ public class CreateRoom extends AppCompatActivity {
 
     EditText edit_number, edit_floor, edit_chairs, edit_equipment;
 
-    ProgressBar progressbar;
+        ProgressBar progressbar;
 
     TextView back, submit;
 
